@@ -3,7 +3,7 @@ const Projects = () => (
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Add your project cards here */}
+      
           <div className="bg-gray-200 p-4 py-40 rounded shadow">Project 1
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis voluptatum aut minima, excepturi, facere ipsa aperiam sit maiores, delectus eaque ad! At impedit adipisci veritatis maiores maxime dolores facere rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptate quam corrupti numquam eius, perferendis, beatae porro in quidem placeat blanditiis nesciunt ullam dolorem similique. Eligendi maxime a harum minima?</p>
           </div>
@@ -16,6 +16,8 @@ const Projects = () => (
         </div>
       </div>
     </section>
+
+    
   );
   
   export default Projects;
