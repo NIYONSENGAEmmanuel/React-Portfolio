@@ -4,7 +4,7 @@ const Contact = () => {
       id="contact"
       className="sm:min-h-screen lg:bg-gradient-to-r from-gray-200 to-gray-200  hover:animate-none flex items-center justify-center"
     >
-      <div className="bg-white   bg-opacity-80 rounded-lg  w-full max-w-2xl">
+      <div className="bg-white   bg-opacity-80 rounded-lg mt-72 w-full max-w-2xl">
         <h2 className="text-3xl bg-slate-950 font-bold text-center text-gray-800 mb-8">Contact Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
           <div className="bg-white shadow-lg rounded-lg p-4">

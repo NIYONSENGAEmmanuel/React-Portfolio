@@ -20,44 +20,44 @@ const Skills = () => {
       <h2 className="text-4xl font-extrabold text-center mb-12 text-blue-300">
         My Skills
       </h2>
-      <ul className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+      <ul className="grid   md:grid-cols-3 gap-6 items-center justify-center max-w-4xl mx-auto">
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <FaHtml5 className="text-2xl  text-black ml-28" />
+        <FaHtml5 className="text-2xl ml-24  text-black   " />
           HTML
         </li>
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <IoLogoCss3 className="text-2xl  text-black ml-28" />
+        <IoLogoCss3 className="text-2xl  text-black ml-24" />
 
           CSS
         </li>
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <IoLogoJavascript className="text-2xl  text-black ml-28" />
+        <IoLogoJavascript className="text-2xl  text-black ml-24" />
           JavaScript
         </li>
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <FaReact className="text-2xl animate-spin text-black ml-28" />
+        <FaReact className="text-2xl animate-spin text-black ml-24" />
 
           React
         </li>
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <FaFigma className="text-2xl  text-black ml-28" />
+        <FaFigma className="text-2xl  text-black ml-24" />
           Figma
         </li>
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <GoDatabase className="text-2xl  text-black ml-28" />
+        <GoDatabase className="text-2xl  text-black ml-24" />
           Database Management
         </li>
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <FaGithub className="text-2xl  text-black ml-28"/>
+        <FaGithub className="text-2xl  text-black ml-24"/>
           Github
         </li>
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <RiTailwindCssFill className="text-2xl text-black ml-28" />
+        <RiTailwindCssFill className="text-2xl text-black ml-24" />
           Tailwind CSS
         </li>
 
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <FaGitAlt className="text-2xl  text-black ml-28" />
+        <FaGitAlt className="text-2xl  text-black ml-24" />
         Git
         </li>
       </ul>

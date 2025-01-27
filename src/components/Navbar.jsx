@@ -37,7 +37,7 @@ const Navbar = () => {
         <ul
           className={`${
             isMenuOpen ? "block" : "hidden"
-          }  absolute top-0 right-7 flex   md:static md:flex  md:space-x-9 md:bg-transparent`}
+          }  absolute top-0 right-7  flex   md:static md:flex  md:space-x-3 md:bg-transparent`}
         >
            <li className="p-4 md:p-0 text-right md:text-left">
             <a href="#hero" className="font-extrabold block hover:text-blue-950">
