@@ -4,10 +4,10 @@ import { MdEmail } from "react-icons/md";
 const About = () => (
   <section
     id="about"
-    className="sm:min-h-screen lg:bg-gradient-to-r from-gray-100 to-gray-200  hover:animate-none flex items-center justify-center"
+    className="sm:min-h-screen lg:bg-gradient-to-r from-gray-200 to-gray-200  hover:animate-none flex items-center justify-center"
   >
     <div className="max-w-4xl bg-white shadow-lg rounded-xl p-8 md:p-12">
-      <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-800">
+      <h1 className="text-4xl mt-11 font-extrabold text-center mb-6 text-gray-800">
         About Me
       </h1>
       <p className="text-lg leading-relaxed text-gray-700">

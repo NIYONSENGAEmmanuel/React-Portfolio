@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-br from-blue-50 h-[100vh] to-blue-200 text-black  flex flex-col items-center justify-center px-6"
+      className="bg-gradient-to-br  from-gray-200 to-gray-200 text-black  flex flex-col items-center justify-center px-6"
     >
       <div className="flex flex-col items-center">
         {/* Profile Picture */}
@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
 
         {/* Headline */}
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mt-6 text-center hover:text-blue-700 transition-all duration-300">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mt-6 text-center text-blue-600 hover:text-blue-700 transition-all duration-300">
           Welcome to My Portfolio
         </h1>
 

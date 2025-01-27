@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
 
-    <nav className="shadow-lg flex justify-between  shadow-black fixed top-0 left-0 w-full bg-blue-200 text-black z-50">
+    <nav className=" flex justify-between   fixed top-0 left-0 w-full bg-gradient-to-br from-gray-200 to-gray-200 text-black z-50">
        {/* Logo */}
        <img
           className="w-10 h-10 mt-2 ml-4 rounded-full border-white border-solid"
@@ -37,25 +37,25 @@ const Navbar = () => {
         <ul
           className={`${
             isMenuOpen ? "block" : "hidden"
-          }  absolute top-14 right-0 flex  bg-blue-100 md:static md:flex  md:space-x-9 md:bg-transparent`}
+          }  absolute top-0 right-7 flex   md:static md:flex  md:space-x-9 md:bg-transparent`}
         >
            <li className="p-4 md:p-0 text-right md:text-left">
-            <a href="#hero" className="font-extrabold block hover:text-red-700">
+            <a href="#hero" className="font-extrabold block hover:text-blue-950">
              Home
             </a>
           </li>
           <li className="p-4 md:p-0 text-right md:text-left">
-            <a href="#about" className="font-extrabold block hover:text-red-700">
+            <a href="#about" className="font-extrabold block hover:text-blue-950">
               About
             </a>
           </li>
           <li className="p-4 md:p-0 text-right md:text-left">
-            <a href="#skills" className="font-extrabold block hover:text-red-700">
+            <a href="#skills" className="font-extrabold block  hover:text-blue-950">
               Skills
             </a>
           </li>
           <li className="p-4 md:p-0 text-right md:text-left">
-            <a href="#contact" className="font-extrabold block hover:text-red-700">
+            <a href="#contact" className="font-extrabold block hover:text-blue-950">
               Contact
             </a>
           </li>
