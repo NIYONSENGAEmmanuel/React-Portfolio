@@ -13,11 +13,7 @@ const Navbar = () => {
 
     <nav className=" flex justify-between   fixed top-0 left-0 w-full bg-gradient-to-br from-gray-200 to-gray-200 text-black z-50">
        {/* Logo */}
-       <img
-          className="w-10 h-10 mt-2 ml-4 rounded-full border-white border-solid"
-          src="src/assets/images (1).jpeg"
-          alt="Logo"
-        />
+     
 
       <div className="container mx-auto flex justify-between items-center p-4">
        
