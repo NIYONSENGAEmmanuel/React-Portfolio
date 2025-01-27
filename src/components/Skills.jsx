@@ -20,7 +20,7 @@ const Skills = () => {
       <h2 className="text-4xl font-extrabold text-center mb-12 text-blue-300">
         My Skills
       </h2>
-      <ul className="grid   md:grid-cols-3 gap-6 items-center justify-center max-w-4xl mx-auto">
+      <ul className="grid   md:grid-cols-3 gap-2 items-center justify-center max-w-4xl mx-auto">
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
         <FaHtml5 className="text-2xl ml-24  text-black   " />
           HTML
