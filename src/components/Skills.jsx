@@ -57,7 +57,7 @@ const Skills = () => {
         </li>
 
         <li className="bg-blue-50 p-1  rounded-lg text-black font-semibold text-center  hover:bg-blue-100 transition-transform transform hover:scale-105 shadow-lg">
-        <FaGitAlt className="text-2xl animate-spin text-black ml-28" />
+        <FaGitAlt className="text-2xl  text-black ml-28" />
         Git
         </li>
       </ul>
