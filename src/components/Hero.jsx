@@ -6,20 +6,18 @@ const Hero = () => {
     >
       <img
         className="w-16 h-16 fixed top-8 left-0 rounded-full border-4 border-blue-600 shadow-lg z-50"
-        src="src/assets/images (1).jpeg"
+        src="public/images/images (1).jpeg" 
         alt="Logo"
       />
+
       <div className="flex flex-col items-center">
-       
         <div className="rounded-full border-4 mt-16 border-blue-600 shadow-xl overflow-hidden w-40 h-40 sm:w-52 sm:h-52 lg:w-64 lg:h-64">
           <img
             className="w-full h-full object-cover"
-            src="src/assets/171128359.jpeg"
+            src="public/images/171128359.jpeg" 
             alt="Niyonsenga Emmanuel"
           />
         </div>
-
-    
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mt-6 text-center text-blue-600 hover:text-blue-700 transition-all duration-300">
           Welcome to My Portfolio
         </h1>
