@@ -6,7 +6,7 @@ const Hero = () => {
     >
       <img
         className="w-16 h-16 fixed top-8 left-0 rounded-full border-4 border-blue-600 shadow-lg z-50"
-        src="public/images/images (1).jpeg" 
+        src="/images/images (1).jpeg" 
         alt="Logo"
       />
 
@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="rounded-full border-4 mt-16 border-blue-600 shadow-xl overflow-hidden w-40 h-40 sm:w-52 sm:h-52 lg:w-64 lg:h-64">
           <img
             className="w-full h-full object-cover"
-            src="public/images/171128359.jpeg" 
+            src="/images/171128359.jpeg" 
             alt="Niyonsenga Emmanuel"
           />
         </div>
