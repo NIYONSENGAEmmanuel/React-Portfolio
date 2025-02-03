@@ -16,17 +16,14 @@ const Navbar = () => {
      
 
       <div className="container mx-auto flex justify-between items-center p-4">
-       
-        {/* Flex Spacer */}
         <div className="flex-grow"></div>
 
-        {/* Navigation Links */}
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
             className="text-black text-2xl focus:outline-none"
           >
-            {isMenuOpen ? <FaTimes /> : <FaBars />}
+            {isMenuOpen ? <FaTimes className="hover:text-pink-700" /> : <FaBars className="hover:text-pink-700"/>}
           </button>
         </div>
 
@@ -36,22 +33,22 @@ const Navbar = () => {
           }  absolute top-0 right-7  flex   md:static md:flex  md:space-x-3 md:bg-transparent`}
         >
            <li className="p-4 md:p-0 text-right md:text-left">
-            <a href="#hero" className="font-extrabold block hover:text-blue-950">
+            <a href="#hero" className="font-extrabold block hover:text-pink-600">
              Home
             </a>
           </li>
           <li className="p-4 md:p-0 text-right md:text-left">
-            <a href="#about" className="font-extrabold block hover:text-blue-950">
+            <a href="#about" className="font-extrabold block hover:text-pink-600">
               About
             </a>
           </li>
           <li className="p-4 md:p-0 text-right md:text-left">
-            <a href="#skills" className="font-extrabold block  hover:text-blue-950">
+            <a href="#skills" className="font-extrabold block   hover:text-pink-600">
               Skills
             </a>
           </li>
           <li className="p-4 md:p-0 text-right md:text-left">
-            <a href="#contact" className="font-extrabold block hover:text-blue-950">
+            <a href="#contact" className="font-extrabold block  hover:text-pink-600">
               Contact
             </a>
           </li>
